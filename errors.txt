@@ -2,53 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/build.rpy", line 2: expected statement.
-    build.archive("scripts", "all")
-                                   ^
-
-File "game/build.rpy", line 3: expected statement.
-    build.archive("images", "all")
-                                  ^
-
-File "game/build.rpy", line 4: expected statement.
-    build.archive("tl", "all")
-                              ^
-
-File "game/build.rpy", line 5: expected statement.
-    build.archive("font", "all")
-                                ^
-
-File "game/build.rpy", line 6: expected statement.
-    build.archive("audio", "all")
-                                 ^
-
-File "game/build.rpy", line 9: expected statement.
-    build.classify("game/**.rpy", "scripts")
-                                            ^
-
-File "game/build.rpy", line 10: expected statement.
-    build.classify("game/**.rpyc", "scripts")
-                                             ^
-
-File "game/build.rpy", line 13: expected statement.
-    build.classify("game/**.jpg", "images")
-                                           ^
-
-File "game/build.rpy", line 14: expected statement.
-    build.classify("game/**.png", "images")
-                                           ^
-
-File "game/build.rpy", line 17: expected statement.
-    build.classify("game/**.ttf", "font")
-                                         ^
-
-File "game/build.rpy", line 20: expected statement.
-    build.classify("game/**.ogg", "audio")
-                                          ^
-
-File "game/build.rpy", line 23: expected statement.
-    build.classify("game/tl", "tl")
-                                   ^
+File "game/tl/schinese/options.rpy", line 2: expected 'name' not found.
+    translate  python:
+             ^
 
 Ren'Py Version: Ren'Py 8.1.1.23060707
-Sun Jun 18 17:19:17 2023
+Sun Jun 18 17:46:16 2023

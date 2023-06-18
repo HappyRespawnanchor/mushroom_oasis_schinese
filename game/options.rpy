@@ -13,7 +13,7 @@
 
 define config.name = _("Mushroom-Oasis")
 
-define config.developer = "auto"
+define config.developer = True
 
 ## 决定上面给出的标题是否显示在标题界面屏幕。设置为 False 来隐藏标题。
 
@@ -36,6 +36,10 @@ define gui.about = _p("""
 
 define build.name = "Mushroom-Oasis"
 
+# 当其为True时，Ren’Py会尝试使用 config.locale_to_language_function 自动检测语言。
+define config.enable_language_autodetect = True
+
+$ print(config.locale_to_language_function)
 ## 音效和音乐 #######################################################################
 
 ## 这三个变量控制哪些内置的混音器会默认显示给用户。将其中一个设置为 False 将隐藏
