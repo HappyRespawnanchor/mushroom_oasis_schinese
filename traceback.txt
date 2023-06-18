@@ -1,0 +1,26 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 73, in script
+    $ protag = renpy.input_s("What's your name?", length=25)
+  File "game/script.rpy", line 73, in <module>
+    $ protag = renpy.input_s("What's your name?", length=25)
+AttributeError: module 'renpy.exports' has no attribute 'input_s'
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 73, in script
+    $ protag = renpy.input_s("What's your name?", length=25)
+  File "/run/media/gamedisk/renpy-8.0.3-sdk/renpy/ast.py", line 1138, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "/run/media/gamedisk/renpy-8.0.3-sdk/renpy/python.py", line 1122, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "game/script.rpy", line 73, in <module>
+    $ protag = renpy.input_s("What's your name?", length=25)
+AttributeError: module 'renpy.exports' has no attribute 'input_s'
+
+Linux-6.3.8-arch1-1-x86_64-with-glibc2.37 x86_64
+Ren'Py 8.1.1.23060707
+Mushroom-Oasis 1.1
+Sun Jun 18 13:51:43 2023
