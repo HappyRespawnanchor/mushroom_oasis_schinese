@@ -1600,4 +1600,3 @@ label start:
     "Thank you for playing! <3"
 
     return
-# Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

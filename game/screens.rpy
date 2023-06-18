@@ -1521,4 +1521,3 @@ init -1 style slider_vbox:
 init -1 style slider_slider:
     variant "small"
     xsize 900
-# Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
