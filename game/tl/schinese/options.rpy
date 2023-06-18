@@ -10,5 +10,4 @@ translate schinese strings:
 
     # game/options.rpy:15
     old "Mushroom-Oasis"
-    #new "蘑菇绿洲（Mushroom-Oasis）汉化版～贡献翻译？提交反馈？仓库地址：https://github.com/HappyRespawnanchor/mushroom_oasis_schinese}"
     new "Mushroom-Oasis中文"
